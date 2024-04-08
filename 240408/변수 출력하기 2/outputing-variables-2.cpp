@@ -6,6 +6,6 @@ int main() {
     int a = 3;
     char b = 'C';
 
-    cout << a << "!.....!" << b;
+    cout << b << "!.....!" << a;
     return 0;
 }
