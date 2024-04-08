@@ -4,10 +4,10 @@ using namespace std;
 int main() {
     // 여기에 코드를 작성해주세요.
     int a = 5,b = 6,c = 7;
-    int k = c;
-    b=a;
-    c=b;
-    a=k;
+    int j = c;
+    c = b;
+    b = a;
+    a = j;
 
     cout << a<<endl<<b<<endl<<c;
     
